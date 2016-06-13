@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AnimalActions	ExerciseFiles/oop2.py	/^class AnimalActions:$/;"	c
+AnimalActions	ExerciseFiles/oop3.py	/^class AnimalActions:$/;"	c
+AnimalActions	classtutorial1.py	/^class AnimalActions():$/;"	c
+Dog	ExerciseFiles/oop2.py	/^class Dog(AnimalActions):$/;"	c
+Dog	ExerciseFiles/oop3.py	/^class Dog(AnimalActions):$/;"	c
+Duck	ExerciseFiles/oop2.py	/^class Duck(AnimalActions):$/;"	c
+Duck	ExerciseFiles/oop3.py	/^class Duck(AnimalActions):$/;"	c
+Duck	classtutorial1.py	/^class Duck(AnimalActions):$/;"	c
+Egg	syntax-objects.py	/^class Egg:$/;"	c
+Fibonacci	ExerciseFiles/simpleoop.py	/^class Fibonacci():$/;"	c
+Fibonacci	classtutorial.py	/^class Fibonacci():$/;"	c
+Person	ExerciseFiles/oop2.py	/^class Person(AnimalActions):$/;"	c
+Person	ExerciseFiles/oop3.py	/^class Person(AnimalActions):$/;"	c
+__init__	ExerciseFiles/simpleoop.py	/^    def __init__(self, a, b):$/;"	m	class:Fibonacci
+__init__	classtutorial.py	/^    def __init__(self, a, b):$/;"	m	class:Fibonacci
+__init__	syntax-objects.py	/^    def __init__(self,kind="fried"):$/;"	m	class:Egg
+_doAction	ExerciseFiles/oop3.py	/^    def _doAction(self, action):$/;"	m	class:AnimalActions
+animalName	ExerciseFiles/oop3.py	/^    def animalName(self):$/;"	m	class:AnimalActions
+bark	ExerciseFiles/oop2.py	/^        bark = "Arf!",$/;"	v	class:Dog
+bark	ExerciseFiles/oop2.py	/^        bark = "The duck cannot bark.",$/;"	v	class:Duck
+bark	ExerciseFiles/oop2.py	/^        bark = "The person says woof!",$/;"	v	class:Person
+bark	ExerciseFiles/oop2.py	/^    def bark(self): return self.strings['bark']$/;"	m	class:AnimalActions
+bark	ExerciseFiles/oop3.py	/^        bark = "Arf!",$/;"	v	class:Dog
+bark	ExerciseFiles/oop3.py	/^        bark = "The person says woof!",$/;"	v	class:Person
+bark	ExerciseFiles/oop3.py	/^    def bark(self): return self._doAction('bark')$/;"	m	class:AnimalActions
+bark	classtutorial1.py	/^        bark = "The duck cannot bark",$/;"	v	class:Duck
+bark	classtutorial1.py	/^    def bark(self): return self.strings['bark']$/;"	m	class:AnimalActions
+d	classtutorial1.py	/^d = Duck()$/;"	v
+egg	modules.py	/^def egg():$/;"	f
+f	ExerciseFiles/simpleoop.py	/^f = Fibonacci(0, 1)$/;"	v
+f	classtutorial.py	/^f = Fibonacci(0, 1)$/;"	v
+feathers	ExerciseFiles/oop2.py	/^        feathers = "The dog has no feathers.",$/;"	v	class:Dog
+feathers	ExerciseFiles/oop2.py	/^        feathers = "The duck has gray and white feathers.",$/;"	v	class:Duck
+feathers	ExerciseFiles/oop2.py	/^        feathers = "The person takes a feather from the ground and shows it.",$/;"	v	class:Person
+feathers	ExerciseFiles/oop2.py	/^    def feathers(self): return self.strings['feathers']$/;"	m	class:AnimalActions
+feathers	ExerciseFiles/oop3.py	/^        feathers = "The duck has gray and white feathers."$/;"	v	class:Duck
+feathers	ExerciseFiles/oop3.py	/^        feathers = "The person takes a feather from the ground and shows it."$/;"	v	class:Person
+feathers	ExerciseFiles/oop3.py	/^    def feathers(self): return self._doAction('feathers')$/;"	m	class:AnimalActions
+feathers	classtutorial1.py	/^        feathers = "The duck has grey and white feathers",$/;"	v	class:Duck
+feathers	classtutorial1.py	/^    def feathers(self): return self.strings['feathers']$/;"	m	class:AnimalActions
+fh	ExerciseFiles/exceptions.py	/^fh = open('xlines.txt')$/;"	v
+fh	ExerciseFiles/forloop.py	/^fh = open('lines.txt')$/;"	v
+fh	exceptions.py	/^    fh = open('hello.txt')$/;"	v
+fh	forloop.py	/^fh = open('lines.txt')$/;"	v
+func	syntax-functions.py	/^def func(a=7): #provide a default value$/;"	f
+fur	ExerciseFiles/oop2.py	/^        fur = "The dog has white fur with black spots."$/;"	v	class:Dog
+fur	ExerciseFiles/oop2.py	/^        fur = "The duck has no fur."$/;"	v	class:Duck
+fur	ExerciseFiles/oop2.py	/^        fur = "The person puts on a fur coat."$/;"	v	class:Person
+fur	ExerciseFiles/oop2.py	/^    def fur(self): return self.strings['fur']$/;"	m	class:AnimalActions
+fur	ExerciseFiles/oop3.py	/^        fur = "The dog has white fur with black spots.",$/;"	v	class:Dog
+fur	ExerciseFiles/oop3.py	/^        fur = "The person puts on a fur coat.",$/;"	v	class:Person
+fur	ExerciseFiles/oop3.py	/^    def fur(self): return self._doAction('fur')$/;"	m	class:AnimalActions
+fur	classtutorial1.py	/^        fur = "The duck has no fur"$/;"	v	class:Duck
+fur	classtutorial1.py	/^    def fur(self): return self.strings['fur']$/;"	m	class:AnimalActions
+in_the_doghouse	ExerciseFiles/oop2.py	/^def in_the_doghouse(dog):$/;"	f
+in_the_doghouse	ExerciseFiles/oop3.py	/^def in_the_doghouse(dog):$/;"	f
+in_the_forest	ExerciseFiles/oop2.py	/^def in_the_forest(duck):$/;"	f
+in_the_forest	ExerciseFiles/oop3.py	/^def in_the_forest(duck):$/;"	f
+isprime	ExerciseFiles/function.py	/^def isprime(n):$/;"	f
+isprime	ExerciseFiles/generator.py	/^def isprime(n):$/;"	f
+isprime	comments.py	/^def isprime(n):$/;"	f
+isprime	function.py	/^def isprime(n):$/;"	f
+isprime	generator.py	/^def isprime(n):$/;"	f
+main	ExerciseFiles/oop2.py	/^def main():$/;"	f
+main	ExerciseFiles/oop3.py	/^def main():$/;"	f
+main	comments.py	/^def main():$/;"	f
+main	conditional.py	/^def main():$/;"	f
+main	dictionary.py	/^def main():$/;"	f
+main	modules.py	/^def main():$/;"	f
+main	syntax-functions.py	/^def main():$/;"	f
+main	syntax-objects.py	/^def main():$/;"	f
+main	variables-syntax.py	/^def main():$/;"	f
+primes	ExerciseFiles/generator.py	/^def primes(n = 1):$/;"	f
+primes	comments.py	/^def primes(n=1):$/;"	f
+primes	generator.py	/^def primes(n=1):$/;"	f
+quack	ExerciseFiles/oop2.py	/^        quack = "Quaaaaak!",$/;"	v	class:Duck
+quack	ExerciseFiles/oop2.py	/^        quack = "The dog cannot quack.",$/;"	v	class:Dog
+quack	ExerciseFiles/oop2.py	/^        quack = "The person imitates a duck.",$/;"	v	class:Person
+quack	ExerciseFiles/oop2.py	/^    def quack(self): return self.strings['quack']$/;"	m	class:AnimalActions
+quack	ExerciseFiles/oop3.py	/^        quack = "Quaaaaak!",$/;"	v	class:Duck
+quack	ExerciseFiles/oop3.py	/^        quack = "The person imitates a duck.",$/;"	v	class:Person
+quack	ExerciseFiles/oop3.py	/^    def quack(self): return self._doAction('quack')$/;"	m	class:AnimalActions
+quack	classtutorial1.py	/^        quack= "Quaaaak!",$/;"	v	class:Duck
+quack	classtutorial1.py	/^    def quack(self): return self.strings['quack']$/;"	m	class:AnimalActions
+series	ExerciseFiles/simpleoop.py	/^    def series(self):$/;"	m	class:Fibonacci
+series	classtutorial.py	/^    def series(self):$/;"	m	class:Fibonacci
+strings	ExerciseFiles/oop2.py	/^    strings = dict($/;"	v	class:Dog
+strings	ExerciseFiles/oop2.py	/^    strings = dict($/;"	v	class:Duck
+strings	ExerciseFiles/oop2.py	/^    strings = dict($/;"	v	class:Person
+strings	ExerciseFiles/oop3.py	/^    strings = dict($/;"	v	class:Dog
+strings	ExerciseFiles/oop3.py	/^    strings = dict($/;"	v	class:Duck
+strings	ExerciseFiles/oop3.py	/^    strings = dict($/;"	v	class:Person
+strings	classtutorial1.py	/^    strings = dict($/;"	v	class:Duck
+whatKind	syntax-objects.py	/^    def whatKind(self):$/;"	m	class:Egg
